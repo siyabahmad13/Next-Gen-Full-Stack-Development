@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">StepNext</a>
+
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/men">Men</a></li>
+          <li><a href="/women">Women</a></li>
+          <li><a href="/collections">Collections</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="/cart" aria-label="Cart">
+          Cart
+          <span class="badge">2</span>
+        </a>
+        <a href="/signin"><button type="button">Sign In</button></a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <span class="tag">🔥 Elite Performance</span>
+
+        <h1>
+          Step Into The
+          <br />
+          <em>Future</em>
+        </h1>
+
+        <p class="featured">Featured: StepNext Air Volt 90</p>
+
+        <p class="description">
+          Uncompromising aesthetics meets aerospace-grade engineering. Elevate
+          every stride with the Aero-V Core series. Built with Nitrogen-infused
+          cushions and carbon fiber composites.
+        </p>
+
+        <div class="rating">
+          <span>★★★★★</span>
+          <span>4.9 / 5.0 (312 verified global reviews)</span>
+        </div>
+
+        <figure class="hero-image">
+          <img
+            src="/lec 8/images/hero.avif"
+            alt="StepNext Air Volt 90 sneaker"
+          />
+          <figcaption>
+            <p>Cushioning: Nitrogen-Infused</p>
+            <p>
+              ✨ Premium Build - Handcrafted composite weave layers &amp;
+              breathable mesh
+            </p>
+          </figcaption>
+        </figure>
+
+        <form>
+          <fieldset>
+            <legend>Select Accent Color</legend>
+            <label>
+              <input type="radio" name="accent-color" value="orange" checked />
+              Orange
+            </label>
+            <label>
+              <input type="radio" name="accent-color" value="black" />
+              Black
+            </label>
+            <label>
+              <input type="radio" name="accent-color" value="teal" />
+              Teal
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Select US Men's Size</legend>
+            <label>
+              <input type="radio" name="size" value="8" />
+              8
+            </label>
+            <label>
+              <input type="radio" name="size" value="9" checked />
+              9
+            </label>
+            <label>
+              <input type="radio" name="size" value="10" />
+              10
+            </label>
+            <label>
+              <input type="radio" name="size" value="11" />
+              11
+            </label>
+          </fieldset>
+
+          <button type="submit">Add Signature To Cart</button>
+          <a href="#products"
+            ><button type="button">Browse Collections ↓</button></a
+          >
+        </form>
+      </section>
+
+      <!-- Products Section -->
+      <section id="products" class="products">
+        <header class="products-header">
+          <p class="eyebrow">Engineered For Performance &amp; Streetwear</p>
+          <h2>Elevate Your Stride</h2>
+
+          <nav class="category-filter">
+            <ul>
+              <li><button type="button">All Footwear</button></li>
+              <li><button type="button">Men's</button></li>
+              <li><button type="button">Women's</button></li>
+              <li><button type="button">Special Collections</button></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="products-toolbar">
+          <form role="search">
+            <label for="search-styles">Search premium styles</label>
+            <input
+              type="search"
+              id="search-styles"
+              name="search"
+              placeholder="Search premium styles..."
+            />
+          </form>
+
+          <p>Showing 6 premium sneakers</p>
+
+          <form>
+            <label for="sort-by">Sort By:</label>
+            <select id="sort-by" name="sort">
+              <option value="best-matches">Best Matches</option>
+              <option value="price-low-high">Price: Low to High</option>
+              <option value="price-high-low">Price: High to Low</option>
+              <option value="rating">Top Rated</option>
+            </select>
+          </form>
+        </div>
+
+        <ul class="product-list">
+          <li class="product-card">
+            <article>
+              <span class="badge">Best Seller</span>
+              <img
+                src="/lec 8/images/product 1.avif"
+                alt="Urban Runner Pro sneaker"
+              />
+
+              <p class="brand">StepNext Lab</p>
+              <p class="rating">★ 4.8</p>
+
+              <h3>Urban Runner Pro</h3>
+              <p>
+                Engineered for the modern streets. Featuring our revolutionary
+                active responsive foam and knit...
+              </p>
+
+              <fieldset>
+                <legend>Colors</legend>
+                <label
+                  ><input
+                    type="radio"
+                    name="color-urban-runner"
+                    value="red"
+                    checked
+                  />
+                  Red</label
+                >
+                <label
+                  ><input type="radio" name="color-urban-runner" value="grey" />
+                  Grey</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="color-urban-runner"
+                    value="white"
+                  />
+                  White</label
+                >
+              </fieldset>
+
+              <p class="price">
+                <span class="current-price">$189</span>
+                <del class="old-price">$220</del>
+              </p>
+
+              <button type="button">🛒 Add To Cart</button>
+            </article>
+          </li>
+
+          <li class="product-card">
+            <article>
+              <span class="badge">New</span>
+              <img
+                src="/lec 8/images/product 2.avif"
+                alt="Classic High-Top Suede sneaker"
+              />
+
+              <p class="brand">StepNext Heritage</p>
+              <p class="rating">★ 4.6</p>
+
+              <h3>Classic High-Top Suede</h3>
+              <p>
+                Suede craftsmanship meets vintage silhouette. A timeless classic
+                redesigned with full-grain leath...
+              </p>
+
+              <fieldset>
+                <legend>Colors</legend>
+                <label
+                  ><input
+                    type="radio"
+                    name="color-classic-suede"
+                    value="tan"
+                    checked
+                  />
+                  Tan</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="color-classic-suede"
+                    value="grey"
+                  />
+                  Grey</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="color-classic-suede"
+                    value="blue"
+                  />
+                  Blue</label
+                >
+              </fieldset>
+
+              <p class="price">
+                <span class="current-price">$150</span>
+              </p>
+
+              <button type="button">🛒 Add To Cart</button>
+            </article>
+          </li>
+
+          <li class="product-card">
+            <article>
+              <span class="badge">Limited</span>
+              <img
+                src="/lec 8/images/product 3.avif"
+                alt="Aero Sprint Nitro sneaker"
+              />
+
+              <p class="brand">StepNext Speed</p>
+              <p class="rating">★ 4.9</p>
+
+              <h3>Aero Sprint Nitro</h3>
+              <p>
+                Ultra-lightweight aerodynamic racing shoe designed to break
+                personal records. Featuring a...
+              </p>
+
+              <fieldset>
+                <legend>Colors</legend>
+                <label
+                  ><input
+                    type="radio"
+                    name="color-aero-sprint"
+                    value="lime"
+                    checked
+                  />
+                  Lime</label
+                >
+                <label
+                  ><input type="radio" name="color-aero-sprint" value="grey" />
+                  Grey</label
+                >
+                <label
+                  ><input type="radio" name="color-aero-sprint" value="teal" />
+                  Teal</label
+                >
+              </fieldset>
+
+              <p class="price">
+                <span class="current-price">$210</span>
+                <del class="old-price">$245</del>
+              </p>
+
+              <button type="button">🛒 Add To Cart</button>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="benifits">
+        <ul>
+          <li>
+            <h3>Free Priority Air Cargo</h3>
+            <p>Free overnight shipping on premium orders over $300</p>
+          </li>
+
+          <li>
+            <h3>100% Certified Authentic</h3>
+            <p>Every premium sneaker passes physical custom inspection.</p>
+          </li>
+          <li>
+            <h3>30 Day Easy Swap</h3>
+            <p>Return or trade dynamic sizes instantly, hassle free.</p>
+          </li>
+          <li>
+            <h3>Encrypted Checkout</h3>
+            <p>SSL certified secure payments on Stripe and cards.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- NEWSLETTER SECTION -->
+       <section class="newsletters">
+        <p class="eyebrow"> Stay Ahead of the curve</p>
+        <h2>Subscribe to limited sneaker Drop</h2>
+        
+        <p>
+             Unlock double reward points on your first sneaker acquisition, priority alerts on high-top restocks, and exclusive capsule collection invitation codes.
+        </p>
+
+        <form >
+            <Label newsletter-email> Email</Label> 
+            <input type="email" id="newsletter-email" name="email" placeholder="enter your email address" required>
+            <button type="submit"> Join Clan</button>
+        
+        </form>
+       </section>
+    </main>
+
+    <!-- for footer  -->
+       <footer>
+        <div class="footer-brand">
+            <p class="logo">StepNext</p>
+            <p>
+                Premium specialized athletic and lifestyle footwear engineered with high-impact
+                carbon fiber plates and nitrogen-backed soles. Step next into futuristic
+                streetwear comfort.
+            </p>
+        </div>
+ 
+        <nav class="footer-links">
+            <h3>Sneakers And Gear</h3>
+            <ul>
+                <li><a href="/all">View All</a></li>
+                <li><a href="/men">Men's Sneakers</a></li>
+                <li><a href="/women">Women's Sneakers</a></li>
+                <li><a href="/special-drops">Special Capsule Drops</a></li>
+            </ul>
+        </nav>
+ 
+        <nav class="footer-links">
+            <h3>Help Center</h3>
+            <ul>
+                <li><a href="/track-order">Track Order Shipment</a></li>
+                <li><a href="/returns">Priority Return Logistics</a></li>
+                <li><a href="/faq">Store FAQ Answers</a></li>
+                <li><a href="/support">24/7 Crew Customer Care</a></li>
+            </ul>
+        </nav>
+ 
+        <div class="footer-mission">
+            <h3>Store Mission</h3>
+            <p>
+                StepNext is committed to building zero-compromise physical footwear
+                blueprints using eco-responsible materials and recycled carbon-matrix composites.
+            </p>
+        </div>
+ 
+        <div class="footer-bottom">
+            <p>&copy; 2026 StepNext International Inc. All rights protected.</p>
+            <nav>
+                <ul>
+                    <li><a href="/privacy">Privacy Policies</a></li>
+                    <li><a href="/terms">Terms Of Operation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+  </body>
+</html>

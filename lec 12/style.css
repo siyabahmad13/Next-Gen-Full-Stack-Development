@@ -1,0 +1,10 @@
+.bg-border{
+    width: 350px;
+    padding: 30px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(18, 64, 95, 0.6)) ,url('product\ 1.avif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    border: 2px solid black;
+}

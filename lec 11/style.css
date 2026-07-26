@@ -1,0 +1,9 @@
+.box-model{
+    background-color: #00ff2a;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #2c3e50;
+    margin: 40px;
+    
+}
