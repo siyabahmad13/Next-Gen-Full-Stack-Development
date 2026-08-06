@@ -1,0 +1,50 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.static-box{
+    position: static;
+}
+
+
+.relative-box{
+    position:relative;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+
+}
+
+.absolute-container{
+
+    position: relative;
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
+}
+
+.absolute-box{
+
+    position: absolute;
+    background-color: rgb(255, 0, 157);
+    right: 20px;
+}
+
+
+.fixed-box{
+
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
