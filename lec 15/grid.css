@@ -1,0 +1,19 @@
+.product-card{
+    background-color: rgb(255, 1, 1);
+    color: white;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.product-grid{
+    background-color: rgb(12, 12, 12);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+
+}

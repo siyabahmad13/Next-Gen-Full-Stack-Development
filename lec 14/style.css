@@ -1,0 +1,16 @@
+.flex-item{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.flex-container{
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}

@@ -1,0 +1,111 @@
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn2 {
+    background-color: rgb(77, 90, 1);
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: green;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.5);
+
+}
+
+/* active pseudo class */
+
+.btn2:active {
+    transform: scale(0.95);
+}
+
+
+
+
+.input{
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.input:focus{
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52,152,219, 0.2);
+}
+
+.animated-box{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation: moveBox 2s infinite alternate ease-in-out;
+}
+
+@keyframes moveBox {
+
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(300px);
+    }
+}
+
+
+.rotate-box{
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    animation: rotateBox 2s linear infinite;
+}
+
+
+@keyframes rotateBox{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(350deg);
+    }
+}
+
+
+
+/* z index */
+
+.box{
+    width: 200px;
+    height: 200px;
+    color: wheat;
+    padding: 20px;
+}
+
+.box-one{
+    background-color: blue;
+    position: relative;
+    z-index: 2;
+}
+.box-two{
+    background-color: red;
+    position: relative;
+    top: -100px;
+    left: 100px;
+    z-index: 3;
+}
