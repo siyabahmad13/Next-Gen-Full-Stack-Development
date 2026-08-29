@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StepNext — Future of Footwear</title>
+
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+
+    <header class="site-header">
+
+        <a href="#" class="logo">StepNext</a>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Collections</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+
+            <a href="/cart" class="cart" aria-label="Shopping Cart">
+                Cart
+                <span class="cart-badge">2</span>
+            </a>
+
+            <a href="/signin" class="signin-btn">
+                Sign In
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ==================== HERO ==================== -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="hero-tag">
+                    Elite Performance
+                </span>
+
+                <h1>
+                    Step Into The
+                    <em>Future</em>
+                </h1>
+
+                <p class="featured">
+                    Featured: StepNext Air Volt 90
+                </p>
+
+                <p class="hero-description">
+                    Uncompromising aesthetics meet aerospace-grade engineering.
+                    Elevate every stride with the Aero-V Core series.
+                    Built with nitrogen-infused cushioning and carbon-fiber composites.
+                </p>
+
+                <div class="rating">
+                    <span>★★★★★</span>
+                    <span>4.9 / 5.0 — 312 verified reviews</span>
+                </div>
+
+
+                <!-- Product Options -->
+
+                <form class="product-options">
+
+                    <fieldset>
+
+                        <legend>
+                            Select Accent Color
+                        </legend>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="accent-color"
+                                value="orange"
+                                checked
+                            >
+                            Orange
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="accent-color"
+                                value="black"
+                            >
+                            Black
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="accent-color"
+                                value="teal"
+                            >
+                            Teal
+                        </label>
+
+                    </fieldset>
+
+
+                    <fieldset>
+
+                        <legend>
+                            Select US Men's Size
+                        </legend>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="size"
+                                value="8"
+                            >
+                            8
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="size"
+                                value="9"
+                                checked
+                            >
+                            9
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="size"
+                                value="10"
+                            >
+                            10
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="size"
+                                value="11"
+                            >
+                            11
+                        </label>
+
+                    </fieldset>
+
+
+                    <div class="hero-buttons">
+
+                        <button type="submit" class="primary-btn">
+                            Add To Cart
+                        </button>
+
+                        <a href="#products" class="secondary-btn">
+                            Browse Collections
+                        </a>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <!-- Hero Image -->
+
+            <figure class="hero-image">
+
+                <img
+                    src="/lec 8/images/hero.avif"
+                    alt="StepNext Air Volt 90 sneaker"
+                >
+
+                <figcaption>
+
+                    <p class="image-note note-top">
+                        Nitrogen-Infused Cushioning
+                    </p>
+
+                    <p class="image-note note-bottom">
+                        Premium carbon-composite construction
+                    </p>
+
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+
+        <!-- ==================== PRODUCTS ==================== -->
+
+        <section id="products" class="products">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">
+                        Engineered For Performance & Streetwear
+                    </p>
+
+                    <h2>
+                        Elevate Your Stride
+                    </h2>
+                </div>
+
+
+                <nav class="category-filter" aria-label="Product Categories">
+
+                    <ul>
+
+                        <li>
+                            <button type="button" class="active">
+                                All Footwear
+                            </button>
+                        </li>
+
+                        <li>
+                            <button type="button">
+                                Men's
+                            </button>
+                        </li>
+
+                        <li>
+                            <button type="button">
+                                Women's
+                            </button>
+                        </li>
+
+                        <li>
+                            <button type="button">
+                                Special Collections
+                            </button>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+
+            <!-- Products Toolbar -->
+
+            <div class="products-toolbar">
+
+                <form class="search-form" role="search">
+
+                    <label for="search-styles">
+                        Search premium styles
+                    </label>
+
+                    <input
+                        type="search"
+                        id="search-styles"
+                        name="search"
+                        placeholder="Search premium styles..."
+                    >
+
+                </form>
+
+
+                <p class="product-count">
+                    Showing 3 premium sneakers
+                </p>
+
+
+                <form class="sort-form">
+
+                    <label for="sort-by">
+                        Sort By
+                    </label>
+
+                    <select id="sort-by" name="sort">
+
+                        <option value="best-matches">
+                            Best Matches
+                        </option>
+
+                        <option value="price-low-high">
+                            Price: Low to High
+                        </option>
+
+                        <option value="price-high-low">
+                            Price: High to Low
+                        </option>
+
+                        <option value="rating">
+                            Top Rated
+                        </option>
+
+                    </select>
+
+                </form>
+
+            </div>
+
+
+            <!-- Product List -->
+
+            <ul class="product-list">
+
+
+                <!-- Product 01 -->
+
+                <li class="product-card">
+
+                    <article>
+
+                        <div class="product-image">
+
+                            <span class="badge">
+                                Best Seller
+                            </span>
+
+                            <img
+                                src="/lec 8/images/product 1.avif"
+                                alt="Urban Runner Pro sneaker"
+                            >
+
+                        </div>
+
+
+                        <div class="product-content">
+
+                            <div class="product-meta">
+
+                                <p class="brand">
+                                    StepNext Lab
+                                </p>
+
+                                <p class="rating">
+                                    ★ 4.8
+                                </p>
+
+                            </div>
+
+
+                            <h3>
+                                Urban Runner Pro
+                            </h3>
+
+                            <p class="product-description">
+                                Engineered for modern streets with responsive
+                                foam cushioning and breathable knit construction.
+                            </p>
+
+
+                            <fieldset class="color-options">
+
+                                <legend>
+                                    Colors
+                                </legend>
+
+                                <label class="color-red">
+                                    <input
+                                        type="radio"
+                                        name="color-urban-runner"
+                                        value="red"
+                                        checked
+                                    >
+                                    Red
+                                </label>
+
+                                <label class="color-grey">
+                                    <input
+                                        type="radio"
+                                        name="color-urban-runner"
+                                        value="grey"
+                                    >
+                                    Grey
+                                </label>
+
+                                <label class="color-white">
+                                    <input
+                                        type="radio"
+                                        name="color-urban-runner"
+                                        value="white"
+                                    >
+                                    White
+                                </label>
+
+                            </fieldset>
+
+
+                            <div class="product-bottom">
+
+                                <p class="price">
+                                    <span class="current-price">
+                                        $189
+                                    </span>
+
+                                    <del class="old-price">
+                                        $220
+                                    </del>
+                                </p>
+
+                                <button type="button" class="add-cart">
+                                    Add To Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </li>
+
+
+                <!-- Product 02 -->
+
+                <li class="product-card">
+
+                    <article>
+
+                        <div class="product-image">
+
+                            <span class="badge badge-new">
+                                New
+                            </span>
+
+                            <img
+                                src="/lec 8/images/product 2.avif"
+                                alt="Classic High-Top Suede sneaker"
+                            >
+
+                        </div>
+
+
+                        <div class="product-content">
+
+                            <div class="product-meta">
+
+                                <p class="brand">
+                                    StepNext Heritage
+                                </p>
+
+                                <p class="rating">
+                                    ★ 4.6
+                                </p>
+
+                            </div>
+
+
+                            <h3>
+                                Classic High-Top Suede
+                            </h3>
+
+                            <p class="product-description">
+                                Suede craftsmanship meets a vintage silhouette,
+                                redesigned with premium full-grain leather.
+                            </p>
+
+
+                            <fieldset class="color-options">
+
+                                <legend>
+                                    Colors
+                                </legend>
+
+                                <label class="color-tan">
+                                    <input
+                                        type="radio"
+                                        name="color-classic-suede"
+                                        value="tan"
+                                        checked
+                                    >
+                                    Tan
+                                </label>
+
+                                <label class="color-grey">
+                                    <input
+                                        type="radio"
+                                        name="color-classic-suede"
+                                        value="grey"
+                                    >
+                                    Grey
+                                </label>
+
+                                <label class="color-blue">
+                                    <input
+                                        type="radio"
+                                        name="color-classic-suede"
+                                        value="blue"
+                                    >
+                                    Blue
+                                </label>
+
+                            </fieldset>
+
+
+                            <div class="product-bottom">
+
+                                <p class="price">
+                                    <span class="current-price">
+                                        $150
+                                    </span>
+                                </p>
+
+                                <button type="button" class="add-cart">
+                                    Add To Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </li>
+
+
+                <!-- Product 03 -->
+
+                <li class="product-card">
+
+                    <article>
+
+                        <div class="product-image">
+
+                            <span class="badge badge-limited">
+                                Limited
+                            </span>
+
+                            <img
+                                src="/lec 8/images/product 3.avif"
+                                alt="Aero Sprint Nitro sneaker"
+                            >
+
+                        </div>
+
+
+                        <div class="product-content">
+
+                            <div class="product-meta">
+
+                                <p class="brand">
+                                    StepNext Speed
+                                </p>
+
+                                <p class="rating">
+                                    ★ 4.9
+                                </p>
+
+                            </div>
+
+
+                            <h3>
+                                Aero Sprint Nitro
+                            </h3>
+
+                            <p class="product-description">
+                                Ultra-lightweight racing footwear designed for
+                                speed with aerodynamic construction.
+                            </p>
+
+
+                            <fieldset class="color-options">
+
+                                <legend>
+                                    Colors
+                                </legend>
+
+                                <label class="color-lime">
+                                    <input
+                                        type="radio"
+                                        name="color-aero-sprint"
+                                        value="lime"
+                                        checked
+                                    >
+                                    Lime
+                                </label>
+
+                                <label class="color-grey">
+                                    <input
+                                        type="radio"
+                                        name="color-aero-sprint"
+                                        value="grey"
+                                    >
+                                    Grey
+                                </label>
+
+                                <label class="color-teal">
+                                    <input
+                                        type="radio"
+                                        name="color-aero-sprint"
+                                        value="teal"
+                                    >
+                                    Teal
+                                </label>
+
+                            </fieldset>
+
+
+                            <div class="product-bottom">
+
+                                <p class="price">
+                                    <span class="current-price">
+                                        $210
+                                    </span>
+
+                                    <del class="old-price">
+                                        $245
+                                    </del>
+                                </p>
+
+                                <button type="button" class="add-cart">
+                                    Add To Cart
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-brand">
+
+            <a href="#" class="logo">
+                StepNext
+            </a>
+
+            <p>
+                Premium athletic and lifestyle footwear engineered
+                for performance, comfort and futuristic streetwear.
+            </p>
+
+        </div>
+
+
+        <nav class="footer-links" aria-label="Sneakers and Gear">
+
+            <h3>
+                Sneakers & Gear
+            </h3>
+
+            <ul>
+                <li><a href="#">View All</a></li>
+                <li><a href="#">Men's Sneakers</a></li>
+                <li><a href="#">Women's Sneakers</a></li>
+                <li><a href="#">Special Collections</a></li>
+            </ul>
+
+        </nav>
+
+
+        <nav class="footer-links" aria-label="Help Center">
+
+            <h3>
+                Help Center
+            </h3>
+
+            <ul>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Customer Support</a></li>
+            </ul>
+
+        </nav>
+
+
+        <div class="footer-mission">
+
+            <h3>
+                Store Mission
+            </h3>
+
+            <p>
+                StepNext focuses on high-performance footwear
+                built with responsible materials and modern design.
+            </p>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 StepNext International Inc.
+            </p>
+
+            <nav aria-label="Legal">
+
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
